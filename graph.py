@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 from pylab import rcParams
-rcParams['figure.figsize'] = 9, 5
+rcParams['figure.figsize'] = 16, 9
 
 #出力された2d推定結果を読み込み
 df= pd.read_csv('./ildoonet-tf-pose-estimation/movie/data/cmu_robot_dance_2ddata.csv')
